@@ -23,7 +23,7 @@ describe Calculator do
     context "with incorrect params" do
       it "should throw an error" do
          calc = Calculator.new
-        expect(calc.add(40,3)).to eql(45)
+        expect(calc.add(40,3)).to eql(43)
     end
  end
 
