@@ -16,7 +16,7 @@ describe Calculator do
     context "with correct params" do
       it "should add two numbers" do
         calc = Calculator.new
-        expect(calc.add(1,3)).to eql(78)
+        expect(calc.add(1,3)).to eql(100)
       end
     end
 
